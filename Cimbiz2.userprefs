@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{E2DC125E-5964-40A8-ABDC-FB81DEEF6746}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cimbiz2/Controllers/GaleriController.cs">
+    <Files>
+      <File FileName="Cimbiz2/Content/css/layout.css" Line="1" Column="1" />
+      <File FileName="Cimbiz2/Views/Home/Index.cshtml" Line="423" Column="131" />
+      <File FileName="Cimbiz2/Views/Shared/_Layout.cshtml" Line="198" Column="57" />
+      <File FileName="Cimbiz2/Controllers/GaleriController.cs" Line="7" Column="30" />
+      <File FileName="Cimbiz2/Views/Galeri/Galeri.cshtml" Line="6" Column="11" />
+      <File FileName="Cimbiz2/Controllers/HomeController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Cimbiz2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

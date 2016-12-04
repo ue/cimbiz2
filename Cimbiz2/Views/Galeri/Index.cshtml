@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Galeri";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+<script>
+
+		$(function() {
+			$.ajax({
+			type: "GET",
+			dataType: "jsonp",
+			cache: false,
+			url: "https://api.instagram.com/v1/users/242293016/media/recent/?access_token=242293016.1677ed0.ad6842b3fbda4054acfd36c08b935923",
+			success: function(data) {
+			for (var i = 0; i < 100; i++) {
+			$(".instagramapi ul").append("<li><a target='_blank' href='" + data.data[i].link +"'><img src='" + data.data[i].images.low_resolution.url +"' /></a></li>");
+			}
+
+			}
+			});
+			});
+
+</script>
+
+<div class="boxed-layout">
+<div class="pane-wrapper clearfix">
+<div id="main-content">	
+<div id="main" role="main" class="wpv-main layout-full">
+				
+
+<div class="row page-wrapper">
+					<div class="instagramapi" ><ul></ul></div>
+				
+<div class="limit-wrapper">
+
+<div class="wpv-grid grid-1-1  wpv-first-level grid-1-1 first wpv-hide-bg-lowres has-background unextended no-extended-padding"  id="wpv-column-dca72e18d9dcf04edbe6222ac694433f">
+
+<div class="wpv-grid grid-1-1  wpv-first-level grid-1-1 first extended-content unextended no-extended-padding" style="padding-top:0.05px;padding-bottom:30px;" id="wpv-column-5217d743090cdf94f3c9683dbb4660c5">
+
+
+
+
+<div class="wpv-grid grid-1-2  wpv-first-level grid-1-2 wpv-hide-bg-lowres has-background unextended no-extended-padding"  id="wpv-column-731903c8b72940437234b1fbd3a5530d">
+
+<div class="wpv-grid grid-3-4  grid-3-4 first unextended no-extended-padding" style="padding-top:0.05px;padding-bottom:0.05px;" id="wpv-column-febd1f5feb2ace3d7e7465b21a4fa507">
+
+</div>
+
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
