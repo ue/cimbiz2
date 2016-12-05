@@ -170,6 +170,9 @@
     <Content Include="Content\themes\base\autocomplete.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="scripts\lightbox-2.6.min.js" />
+    <Content Include="scripts\lightbox-2.6.js" />
+    <Content Include="Scripts\ekko-lightbox.min.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\typings\photoswipe\photoswipe.d.ts" />

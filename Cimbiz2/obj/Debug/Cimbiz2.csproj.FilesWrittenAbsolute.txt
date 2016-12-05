@@ -10,3 +10,15 @@
 /Users/ugrerdl/Projects/Cimbiz2/Cimbiz2/bin/System.Web.WebPages.dll
 /Users/ugrerdl/Projects/Cimbiz2/Cimbiz2/bin/System.Web.WebPages.Razor.dll
 /Users/ugrerdl/Projects/Cimbiz2/Cimbiz2/bin/System.Web.Mvc.dll
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/bin/Cimbiz2.dll.mdb
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/bin/Cimbiz2.dll
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/obj/Debug/Cimbiz2.dll
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/obj/Debug/Cimbiz2.dll.mdb
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/bin/System.Web.Razor.dll
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/bin/Microsoft.Web.Infrastructure.dll
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/bin/System.Web.Helpers.dll
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/bin/System.Web.WebPages.Deployment.dll
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/bin/System.Web.WebPages.dll
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/bin/System.Web.WebPages.Razor.dll
+/Users/ugrerdl/Desktop/untitled folder/cimbiz2/Cimbiz2/bin/System.Web.Mvc.dll
