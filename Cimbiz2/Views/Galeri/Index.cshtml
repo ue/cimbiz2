@@ -5,75 +5,74 @@
 
 <!-- cdn leri duzenle!!  scriptleri layouta tasiyip render ver -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <link rel="stylesheet" href="Content/dist/css/lightbox.min.css">
-  <link rel="stylesheet" href="Content/css/hover.css">
-  <script src="Content/dist/js/lightbox-plus-jquery.min.js"></script>
+<link rel="stylesheet" href="Content/dist/css/lightbox.min.css">
+<link rel="stylesheet" href="Content/css/hover.css">
+<script src="Content/dist/js/lightbox-plus-jquery.min.js"></script>
 
 
 <script>
 
-		$(function() {
-			$.ajax({
-			type: "GET",
-			dataType: "jsonp",
-			cache: false,
-			url: "https://api.instagram.com/v1/users/242293016/media/recent/?access_token=242293016.1677ed0.ad6842b3fbda4054acfd36c08b935923",
-			success: function(data) {
-			for (var i = 0; i < 50; i++) {
-			$(".instagramapi ul").append("<a data-lightbox='example-set' data-title='" + data.data[i].caption.text+"'  class='example-image-link' href='" + data.data[i].images.low_resolution.url +"'><img class='instimg hvr-grow-rotate' src='" + data.data[i].images.low_resolution.url +"' alt='' /></a>");
-				console.log(data);
-			}
-			}
-			});
-			});
+    $(function () {
+        $.ajax({
+            type: "GET",
+            dataType: "jsonp",
+            cache: false,
+            url: "https://api.instagram.com/v1/users/242293016/media/recent/?access_token=242293016.1677ed0.ad6842b3fbda4054acfd36c08b935923",
+            success: function (data) {
+                for (var i = 0; i < 50; i++) {
+                    $(".instagramapi ul").append("<a data-lightbox='example-set' data-title='" + data.data[i].caption.text + "'  class='example-image-link hvr-grow-rotate' href='" + data.data[i].images.low_resolution.url + "'><img class='instimg ' src='" + data.data[i].images.low_resolution.url + "' alt='' /></a>");
+                }
+            }
+        });
+    });
+
+
 
 
 
 </script>
-
+<script>(function (d, t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.src = "//x.instagramfollowbutton.com/follow.js"; s.parentNode.insertBefore(g, s); }(document, "script"));</script>
 
 <style>
+    .instimg {
+        margin: 13px;
+        border: 2px;
+        width: 200px;
+        height: 200px;
+        border-radius: 5px !important;
+        border: 1px solid #fff !important;
+    }
 
-.instimg {
-
-	margin:13px;
-	border:2;
-	width:200px;
-	height:200px;
-
-	    border-radius: 5px!important;
-	}
-	.instimg:hover {
-
-	    border: 1px solid #2a5b97!important;
-
-	}
+        .instimg:hover {
+            border: 1px solid #2a5b97 !important;
+        }
 
 
-	.instagramapi {
-		margin-right:150px; 
-	    margin-left:200px;
-	}
+    .instagramapi {
+        text-align: center;
+    }
+    .ig-follow{
+        text-align:center;
+    }
 </style>
 
 <div class="pane-wrapper clearfix">
 
-		<div id="main-content">	
-			<div class="wpv-main layout-full" id="main" role="main">
-				<div class="row page-wrapper">
+    <div id="main-content">
+        <div class="wpv-main layout-full" id="main" role="main">
 
-				
-					<div class=" instagramapi thumbnail">
-					
-						<ul class="container">
-				
-						</ul>
-					</div>
-
-				</div>
-			</div>
-
-</div> 
+            <span class="ig-follow pull-right" data-id="5479dee" data-handle="igfbdotcom" data-count="true" data-size="large" data-username="true"></span>
+            <div class="row page-wrapper container">
 
 
-	
+                <div class="instagramapi center">
+
+                    <ul></ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

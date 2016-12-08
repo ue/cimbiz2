@@ -3,467 +3,576 @@
 <head>
     <title>@ViewBag.Title</title>
 
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="pingback" href="https://hair-beauty.vamtam.com/xmlrpc.php"/>
-<title>Beauty - Hair Beauty &amp; Barber Theme</title>
-<style type="text/css" media="screen">body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover,body .booked-list-view input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar thead,body table.booked-calendar thead th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button>a:hover{background:#ffffff!important;}body #booked-profile-page input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover,body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button>a:hover{border-color:#ffffff!important;}body table.booked-calendar tr.days,body table.booked-calendar tr.days th,body .booked-calendarSwitcher.calendar,body .booked-calendarSwitcher.calendar select,body #booked-profile-page .booked-tabs{background:#545f64!important;}body table.booked-calendar tr.days th,body #booked-profile-page .booked-tabs{border-color:#545f64!important;}body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button,body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button,body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button>a,body .booked-modal p.booked-title-bar,body table.booked-calendar td:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,.booked-ms-modal .booked-book-appt{background:#b69e59;}body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button,body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button,body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button>a,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{border-color:#b69e59;}body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,body .booked-appt-list .booked-public-appointment-title,body .booked-modal .bm-window p.appointment-title,.booked-ms-modal.visible:hover .booked-book-appt{color:#b69e59;}.booked-appt-list .timeslot.has-title .booked-public-appointment-title{color:inherit;}</style>
- 
-<link rel="canonical" href="https://hair-beauty.vamtam.com/"/>
-<link rel="canonical" href="Content/themes/base/jquery-ui.min.js"/>
-<link rel='dns-prefetch' href='Content/font-awesome.min.css'/>
-<link rel='dns-prefetch' href='Content/bootstrap.min.css'/>
-<link rel='dns-prefetch' href='//fonts.googleapis.com'/>
-<link rel='dns-prefetch' href='//s.w.org'/>
-<link rel="alternate" type="application/rss+xml" title="Hair Beauty &amp; Barber Theme &raquo; Feed" href="https://hair-beauty.vamtam.com/feed/"/>
-<link rel="alternate" type="application/rss+xml" title="Hair Beauty &amp; Barber Theme &raquo; Comments Feed" href="https://hair-beauty.vamtam.com/comments/feed/"/>
-<link rel='stylesheet' id='booked-tooltipster-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/tooltipster/css/tooltipster.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='booked-tooltipster-theme-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/tooltipster/css/themes/tooltipster-light.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='booked-animations-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/css/animations.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='booked-styles-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/css/styles.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='booked-responsive-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/css/responsive.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='sb_instagram_styles-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/instagram-feed/css/sb-instagram.min.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='rs-plugin-settings-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/revslider/public/assets/css/settings.css' type='text/css' media='all'/>
-<style id='rs-plugin-settings-inline-css' type='text/css'>#rs-demo-id{}</style>
-<link rel='stylesheet' id='megamenu-css' href='https://hair-beauty.vamtam.com/wp-content/uploads/maxmegamenu/style.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='dashicons-css' href='https://hair-beauty.vamtam.com/wp-includes/css/dashicons.min.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='vamtam-style-switcher-css' href='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/style_switcher/switcher.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='front-all-css' href='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/cache/all.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='cubeportfolio-css' href='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/cubeportfolio/css/cubeportfolio.min.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='sharedaddy-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css' type='text/css' media='all'/>
-<link rel='stylesheet' id='social-logos-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css' type='text/css' media='all'/>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/jquery.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='//use.fontawesome.com/fcc8474e79.js'></script>
-<link rel='https://api.w.org/' href='https://hair-beauty.vamtam.com/wp-json/'/>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hair-beauty.vamtam.com/xmlrpc.php?rsd"/>
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hair-beauty.vamtam.com/wp-includes/wlwmanifest.xml"/>
-<link rel='shortlink' href='https://hair-beauty.vamtam.com/'/>
-<link rel="alternate" type="application/json+oembed" href="https://hair-beauty.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhair-beauty.vamtam.com%2F"/>
-<link rel="alternate" type="text/xml+oembed" href="https://hair-beauty.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhair-beauty.vamtam.com%2F&#038;format=xml"/>
- 
-<meta property="og:type" content="website"/>
-<meta property="og:title" content="Hair Beauty &amp; Barber Theme"/>
-<meta property="og:url" content="https://hair-beauty.vamtam.com/"/>
-<meta property="og:site_name" content="Hair Beauty &amp; Barber Theme"/>
-<meta property="og:image" content="https://hair-beauty.vamtam.com/wp-content/uploads/2016/01/logos-sertificate.png"/>
-<meta property="og:locale" content="en_US"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script type="text/javascript">window.NREUM || (NREUM = {}), __nr_require = function (t, e, n) { function r(n) { if (!e[n]) { var o = e[n] = { exports: {} }; t[n][0].call(o.exports, function (e) { var o = t[n][1][e]; return r(o || e) }, o, o.exports) } return e[n].exports } if ("function" == typeof __nr_require) return __nr_require; for (var o = 0; o < n.length; o++) r(n[o]); return r }({ 1: [function (t, e, n) { function r() { } function o(t, e, n) { return function () { return i(t, [(new Date).getTime()].concat(u(arguments)), e ? null : this, n), e ? void 0 : this } } var i = t("handle"), a = t(2), u = t(3), c = t("ee").get("tracer"), f = NREUM; "undefined" == typeof window.newrelic && (newrelic = f); var s = ["setPageViewName", "setCustomAttribute", "setErrorHandler", "finished", "addToTrace", "inlineHit"], p = "api-", l = p + "ixn-"; a(s, function (t, e) { f[e] = o(p + e, !0, "api") }), f.addPageAction = o(p + "addPageAction", !0), e.exports = newrelic, f.interaction = function () { return (new r).get() }; var d = r.prototype = { createTracer: function (t, e) { var n = {}, r = this, o = "function" == typeof e; return i(l + "tracer", [Date.now(), t, n], r), function () { if (c.emit((o ? "" : "no-") + "fn-start", [Date.now(), r, o], n), o) try { return e.apply(this, arguments) } finally { c.emit("fn-end", [Date.now()], n) } } } }; a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","), function (t, e) { d[e] = o(l + e) }), newrelic.noticeError = function (t) { "string" == typeof t && (t = new Error(t)), i("err", [t, (new Date).getTime()]) } }, {}], 2: [function (t, e, n) { function r(t, e) { var n = [], r = "", i = 0; for (r in t) o.call(t, r) && (n[i] = e(r, t[r]), i += 1); return n } var o = Object.prototype.hasOwnProperty; e.exports = r }, {}], 3: [function (t, e, n) { function r(t, e, n) { e || (e = 0), "undefined" == typeof n && (n = t ? t.length : 0); for (var r = -1, o = n - e || 0, i = Array(o < 0 ? 0 : o) ; ++r < o;) i[r] = t[e + r]; return i } e.exports = r }, {}], ee: [function (t, e, n) { function r() { } function o(t) { function e(t) { return t && t instanceof r ? t : t ? u(t, a, i) : i() } function n(n, r, o) { t && t(n, r, o); for (var i = e(o), a = l(n), u = a.length, c = 0; c < u; c++) a[c].apply(i, r); var s = f[m[n]]; return s && s.push([w, n, r, i]), i } function p(t, e) { g[t] = l(t).concat(e) } function l(t) { return g[t] || [] } function d(t) { return s[t] = s[t] || o(n) } function v(t, e) { c(t, function (t, n) { e = e || "feature", m[n] = e, e in f || (f[e] = []) }) } var g = {}, m = {}, w = { on: p, emit: n, get: d, listeners: l, context: e, buffer: v }; return w } function i() { return new r } var a = "nr@context", u = t("gos"), c = t(2), f = {}, s = {}, p = e.exports = o(); p.backlog = f }, {}], gos: [function (t, e, n) { function r(t, e, n) { if (o.call(t, e)) return t[e]; var r = n(); if (Object.defineProperty && Object.keys) try { return Object.defineProperty(t, e, { value: r, writable: !0, enumerable: !1 }), r } catch (i) { } return t[e] = r, r } var o = Object.prototype.hasOwnProperty; e.exports = r }, {}], handle: [function (t, e, n) { function r(t, e, n, r) { o.buffer([t], r), o.emit(t, e, n) } var o = t("ee").get("handle"); e.exports = r, r.ee = o }, {}], id: [function (t, e, n) { function r(t) { var e = typeof t; return !t || "object" !== e && "function" !== e ? -1 : t === window ? 0 : a(t, i, function () { return o++ }) } var o = 1, i = "nr@id", a = t("gos"); e.exports = r }, {}], loader: [function (t, e, n) { function r() { if (!h++) { var t = y.info = NREUM.info, e = s.getElementsByTagName("script")[0]; if (t && t.licenseKey && t.applicationID && e) { c(m, function (e, n) { t[e] || (t[e] = n) }); var n = "https" === g.split(":")[0] || t.sslForHttp; y.proto = n ? "https://" : "http://", u("mark", ["onload", a()], null, "api"); var r = s.createElement("script"); r.src = y.proto + t.agent, e.parentNode.insertBefore(r, e) } } } function o() { "complete" === s.readyState && i() } function i() { u("mark", ["domContent", a()], null, "api") } function a() { return (new Date).getTime() } var u = t("handle"), c = t(2), f = window, s = f.document, p = "addEventListener", l = "attachEvent", d = f.XMLHttpRequest, v = d && d.prototype; NREUM.o = { ST: setTimeout, CT: clearTimeout, XHR: d, REQ: f.Request, EV: f.Event, PR: f.Promise, MO: f.MutationObserver }, t(1); var g = "" + location, m = { beacon: "bam.nr-data.net", errorBeacon: "bam.nr-data.net", agent: "js-agent.newrelic.com/nr-974.min.js" }, w = d && v && v[p] && !/CriOS/.test(navigator.userAgent), y = e.exports = { offset: a(), origin: g, features: {}, xhrWrappable: w }; s[p] ? (s[p]("DOMContentLoaded", i, !1), f[p]("load", r, !1)) : (s[l]("onreadystatechange", o), f[l]("onload", r)), u("mark", ["firstbyte", a()], null, "api"); var h = 0 }, {}] }, {}, ["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="pingback" href="https://hair-beauty.vamtam.com/xmlrpc.php" />
+    <title>Beauty - Hair Beauty &amp; Barber Theme</title>
+    <style type="text/css" media="screen">
+        body #booked-profile-page input[type=submit].button-primary:hover, body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover, body table.booked-calendar input[type=submit].button-primary:hover, body .booked-modal input[type=submit].button-primary:hover, body table.booked-calendar thead, body table.booked-calendar thead th, body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover, body #booked-profile-page .booked-profile-header, body #booked-profile-page .booked-tabs li.active a, body #booked-profile-page .booked-tabs li.active a:hover, body #booked-profile-page .appt-block .google-cal-button > a:hover {
+            background: #ffffff !important;
+        }
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:description" content="Visit the post for more."/>
-<link rel="icon" href="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/logo-symbol-43x43.png" sizes="32x32"/>
-<link rel="icon" href="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/logo-symbol.png" sizes="192x192"/>
-<link rel="apple-touch-icon-precomposed" href="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/logo-symbol.png"/>
-<meta name="msapplication-TileImage" content="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/logo-symbol.png"/>
-<style id="custom-css-css"></style>
+        body #booked-profile-page input[type=submit].button-primary:hover, body table.booked-calendar input[type=submit].button-primary:hover, body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover, body .booked-modal input[type=submit].button-primary:hover, body table.booked-calendar th, body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover, body #booked-profile-page .booked-profile-header, body #booked-profile-page .appt-block .google-cal-button > a:hover {
+            border-color: #ffffff !important;
+        }
+
+        body table.booked-calendar tr.days, body table.booked-calendar tr.days th, body .booked-calendarSwitcher.calendar, body .booked-calendarSwitcher.calendar select, body #booked-profile-page .booked-tabs {
+            background: #545f64 !important;
+        }
+
+            body table.booked-calendar tr.days th, body #booked-profile-page .booked-tabs {
+                border-color: #545f64 !important;
+            }
+
+        body #booked-profile-page input[type=submit].button-primary, body table.booked-calendar input[type=submit].button-primary, body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary, body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary, body .booked-modal input[type=submit].button-primary, body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button, body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block, body #booked-profile-page .appt-block .google-cal-button > a, body .booked-modal p.booked-title-bar, body table.booked-calendar td:hover .date span, body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active, body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover, .booked-ms-modal .booked-book-appt {
+            background: #b69e59;
+        }
+
+            body #booked-profile-page input[type=submit].button-primary, body table.booked-calendar input[type=submit].button-primary, body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary, body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary, body .booked-modal input[type=submit].button-primary, body #booked-profile-page .appt-block .google-cal-button > a, body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button, body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active, body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover {
+                border-color: #b69e59;
+            }
+
+        body .booked-modal .bm-window p i.fa, body .booked-modal .bm-window a, body .booked-appt-list .booked-public-appointment-title, body .booked-modal .bm-window p.appointment-title, .booked-ms-modal.visible:hover .booked-book-appt {
+            color: #b69e59;
+        }
+
+        .booked-appt-list .timeslot.has-title .booked-public-appointment-title {
+            color: inherit;
+        }
+    </style>
+
+    <link rel="canonical" href="https://hair-beauty.vamtam.com/" />
+    <link rel="canonical" href="Content/themes/base/jquery-ui.min.js" />
+    <link rel='dns-prefetch' href='Content/font-awesome.min.css' />
+    <link rel='dns-prefetch' href='Content/bootstrap.min.css' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="Hair Beauty &amp; Barber Theme &raquo; Feed" href="https://hair-beauty.vamtam.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Hair Beauty &amp; Barber Theme &raquo; Comments Feed" href="https://hair-beauty.vamtam.com/comments/feed/" />
+    <link rel='stylesheet' id='booked-tooltipster-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/tooltipster/css/tooltipster.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='booked-tooltipster-theme-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/tooltipster/css/themes/tooltipster-light.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='booked-animations-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/css/animations.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='booked-styles-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/css/styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='booked-responsive-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/booked/css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='sb_instagram_styles-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/instagram-feed/css/sb-instagram.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/revslider/public/assets/css/settings.css' type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {
+        }
+    </style>
+    <link rel='stylesheet' id='megamenu-css' href='https://hair-beauty.vamtam.com/wp-content/uploads/maxmegamenu/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='dashicons-css' href='https://hair-beauty.vamtam.com/wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='vamtam-style-switcher-css' href='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/style_switcher/switcher.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='front-all-css' href='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/cache/all.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='cubeportfolio-css' href='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/cubeportfolio/css/cubeportfolio.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='sharedaddy-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='social-logos-css' href='https://hair-beauty.vamtam.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css' type='text/css' media='all' />
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='//use.fontawesome.com/fcc8474e79.js'></script>
+    <link rel='https://api.w.org/' href='https://hair-beauty.vamtam.com/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hair-beauty.vamtam.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hair-beauty.vamtam.com/wp-includes/wlwmanifest.xml" />
+    <link rel='shortlink' href='https://hair-beauty.vamtam.com/' />
+    <link rel="alternate" type="application/json+oembed" href="https://hair-beauty.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhair-beauty.vamtam.com%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://hair-beauty.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhair-beauty.vamtam.com%2F&#038;format=xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hair Beauty &amp; Barber Theme" />
+    <meta property="og:url" content="https://hair-beauty.vamtam.com/" />
+    <meta property="og:site_name" content="Hair Beauty &amp; Barber Theme" />
+    <meta property="og:image" content="https://hair-beauty.vamtam.com/wp-content/uploads/2016/01/logos-sertificate.png" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Visit the post for more." />
+    <link rel="icon" href="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/logo-symbol-43x43.png" sizes="32x32" />
+    <link rel="icon" href="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/logo-symbol.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/logo-symbol.png" />
+    <meta name="msapplication-TileImage" content="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/logo-symbol.png" />
+    <style id="custom-css-css"></style>
 </head>
 
 <body class="home page page-id-10332 page-child parent-pageid-11 page-template-default mega-menu-one-page-menu mega-menu-menu-header full header-layout-logo-menu pagination-load-more page-vertical-padding-none sticky-header-type-normal wpv-not-scrolled no-page-header has-header-slider no-header-sidebars responsive-layout sticky-header sticky-footer layout-full">
-<span id="top"></span>
-<div class="wpv-splash-screen">
-<div class="wpv-splash-screen-progress-wrapper"><div class="wpv-splash-screen-progress"></div>
-</div>
-</div> <div id="page" class="main-container">
-<div class="fixed-header-box sticky-header-state-reset">
-<header class="main-header layout-logo-menu header-content-wrapper">
-<div id="top-nav-wrapper" style="background-color:#1e2022;background-image:none;">
-<nav class="top-nav social-text">
-<div class=" header-maybe-limit-wrapper top-nav-inner header-padding">
-<div class="row">
-<div class="row ">
-<div class="grid-1-2 lowres-width-override lowres-grid-1-2" id="top-nav-social">
-<a href="#" target="_blank"><span class='icon shortcode theme  use-hover' style=''><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
-<a href="#" target="_blank"><span class='icon shortcode   use-hover' style=''><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+    <span id="top"></span>
+    <div class="wpv-splash-screen">
+        <div class="wpv-splash-screen-progress-wrapper">
+            <div class="wpv-splash-screen-progress"></div>
+        </div>
+    </div> <div id="page" class="main-container">
+        <div class="fixed-header-box sticky-header-state-reset">
+            <header class="main-header layout-logo-menu header-content-wrapper">
+                <div id="top-nav-wrapper" style="background-color:#1e2022;background-image:none;">
+                    <nav class="top-nav social-text">
+                        <div class=" header-maybe-limit-wrapper top-nav-inner header-padding">
+                            <div class="row">
+                                <div class="row ">
+                                    <div class="grid-1-2 lowres-width-override lowres-grid-1-2" id="top-nav-social">
+                                        <a href="#" target="_blank"><span class='icon shortcode theme  use-hover' style=''><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                                        <a href="#" target="_blank"><span class='icon shortcode   use-hover' style=''><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
 
-</div>
-<div class="grid-1-2 lowres-width-override lowres-grid-1-2" id="top-nav-text">
-HAFTANIN HER GUNU   /     <a href="/services/hair-cut-hairdryer/">8.00 - 21.00</a></div>
-</div>
-</div>
-</div>
-</nav> </div>
-<div class=" header-maybe-limit-wrapper header-padding">
-<div class="header-contents">
-<div class="first-row">
-<div class="logo-wrapper">
-<div class="logo-tagline">
-<a href="home" title="Hair Beauty &amp; Barber Theme" class="logo " style="min-width:121px"> <img src="https://hair-beauty.vamtam.com/wp-content/uploads/2015/12/logo.png" alt="Hair Beauty &amp; Barber Theme" class="normal-logo" width="121" height="21" style="max-height: 21px;"/>
-<img src="https://hair-beauty.vamtam.com/wp-content/uploads/2015/12/logo-trans.png" alt="Hair Beauty &amp; Barber Theme" class="alternative-logo" width="121" height="21" style="max-height: 21px;"/>
-</a>
-</div>
-<div class="mobile-logo-additions">
-
-
-
-</div>
-</div>
-</div>
-<div class="second-row has-search">
-<div id="menus">
-<nav id="main-menu">
-<a href="#content" title="Skip to content" class="visuallyhidden">Skip to content</a>
-<div id="mega-menu-wrap-menu-header" class="mega-menu-wrap"><div class="mega-menu-toggle" tabindex="0"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-right mega-toggle-block-1' id='mega-toggle-block-1'></div></div><ul id="mega-menu-menu-header" class="mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="slide" data-effect-speed="200" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="900"><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-page_item mega-page-item-10332 mega-current_page_item mega-current-menu-ancestor mega-current-menu-parent mega-current_page_parent mega-current_page_ancestor mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-10422' id='mega-menu-item-10422'><a class="mega-menu-link" href="home" aria-haspopup="true" tabindex="0">ANASAYFA</a>
-
-</li>
-												<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-megamenu mega-menu-item-9975' id='mega-menu-item-9975'>
-<ul class="mega-sub-menu">
-<li class='mega-menu-item mega-menu-item-type-widget woocommerce widget_product_categories mega-menu-columns-1-of-3 mega-menu-item-woocommerce_product_categories-11' id='mega-menu-item-woocommerce_product_categories-11'><h4 class="mega-block-title">Categories</h4><ul class="product-categories"><li class="cat-item cat-item-474"><a href="https://hair-beauty.vamtam.com/product-category/accessories/">Accessories</a></li>
-<li class="cat-item cat-item-419"><a href="https://hair-beauty.vamtam.com/product-category/hairdressing/">Hairdressing</a></li>
-<li class="cat-item cat-item-363"><a href="https://hair-beauty.vamtam.com/product-category/makeup-accessories/">Makeup Accessories</a></li>
-<li class="cat-item cat-item-438"><a href="https://hair-beauty.vamtam.com/product-category/perfumes/">Perfumes</a></li>
-</ul></li><li class='mega-menu-item mega-menu-item-type-widget woocommerce widget_products mega-menu-columns-1-of-3 mega-menu-item-woocommerce_products-10' id='mega-menu-item-woocommerce_products-10'><ul class="product_list_widget">
-<li>
-<a href="https://hair-beauty.vamtam.com/product/natural-cosmetics-pack/" title="Natural Cosmetics Pack">
-<img width="139" height="150" src="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-139x150.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="product-18" srcset="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-139x150.jpg 139w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-370x400.jpg 370w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-268x290.jpg 268w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-278x300.jpg 278w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-495x535.jpg 495w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-320x346.jpg 320w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-232x251.jpg 232w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-465x503.jpg 465w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18.jpg 545w" sizes="(max-width: 139px) 100vw, 139px"/> <span class="product-title">Natural Cosmetics Pack</span>
-</a>
-<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>48.00</span></li>
-</ul></li><li class='mega-menu-item mega-menu-item-type-widget woocommerce widget_products mega-menu-columns-1-of-3 mega-menu-item-woocommerce_products-11' id='mega-menu-item-woocommerce_products-11'><ul class="product_list_widget">
-<li>
-<a href="https://hair-beauty.vamtam.com/product/volum-express-mascara/" title="Volum&#039; Express Mascara">
-<img width="139" height="150" src="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-139x150.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="product-9" srcset="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-139x150.jpg 139w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-370x400.jpg 370w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-268x290.jpg 268w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-278x300.jpg 278w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-495x535.jpg 495w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-320x346.jpg 320w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-232x251.jpg 232w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-465x503.jpg 465w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9.jpg 545w" sizes="(max-width: 139px) 100vw, 139px"/> <span class="product-title">Volum' Express Mascara</span>
-</a>
-<del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>16.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>9.99</span></ins></li>
-</ul></li></ul>
-
-<ul class="mega-sub-menu">
-<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10483' id='mega-menu-item-10483'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/services/hair-cut-hairdryer/">Hair Cut &#038; Hairdryer</a></li></ul>
-
-</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-7779' id='mega-menu-item-7779'>
-<ul class="mega-sub-menu">
-<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-item-7777' id='mega-menu-item-7777'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/" aria-haspopup="true">Team</a>
-<ul class="mega-sub-menu">
-<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10484' id='mega-menu-item-10484'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/ashley-fletcher/">Ashley Fletcher</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10485' id='mega-menu-item-10485'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/avie-beaton/">Avie Beaton</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10486' id='mega-menu-item-10486'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/ben-jonson/">Ben Jonson</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10487' id='mega-menu-item-10487'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/rodney-stratton/">Rodney Stratton</a></li> </ul>
-</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-9375' id='mega-menu-item-9375'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/clients/">Clients</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-8026' id='mega-menu-item-8026'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/faq/">FAQ</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-9642' id='mega-menu-item-9642'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/pricing/">Packages &#038; gifts</a></li></ul>
-</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-9643' id='mega-menu-item-9643'><a class="mega-menu-link" href="galeri" tabindex="0">
-													GALERI</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-7885' id='mega-menu-item-7885'>
-<ul class="mega-sub-menu">
-<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7719' id='mega-menu-item-7719'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/blog/blog-layout-3/">Newspaper Style</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7717' id='mega-menu-item-7717'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/blog/blog-layout-1/">Blog Layout 1</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7718' id='mega-menu-item-7718'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/blog/blog-layout-2/">Blog Layout 2</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7720' id='mega-menu-item-7720'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/blog/blog-post-formats/">Blog Standard Layout</a></li></ul>
-</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-10207' id='mega-menu-item-10207'><a class="mega-menu-link" aria-haspopup="true" tabindex="0">
-													HAKKIMIZDA</a>
-
-</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-10213' id='mega-menu-item-10213'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/contact-us/" tabindex="0">
-													ILETISIM</a></li></ul></div></nav> </div>
-					</div>
+                                    </div>
+                                    <div class="grid-1-2 lowres-width-override lowres-grid-1-2" id="top-nav-text">
+                                        SALI KAPALI   /     <a href="/services/hair-cut-hairdryer/">8.00 - 21.00</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class=" header-maybe-limit-wrapper header-padding">
+                    <div class="header-contents">
+                        <div class="first-row">
+                            <div class="logo-wrapper">
+                                <div class="logo-tagline">
+                                    <a href="home" title="Hair Beauty &amp; Barber Theme" class="logo " style="min-width:121px">
+                                        <img src="https://hair-beauty.vamtam.com/wp-content/uploads/2015/12/logo.png" alt="Hair Beauty &amp; Barber Theme" class="normal-logo" width="121" height="21" style="max-height: 21px;" />
+                                        <img src="https://hair-beauty.vamtam.com/wp-content/uploads/2015/12/logo-trans.png" alt="Hair Beauty &amp; Barber Theme" class="alternative-logo" width="121" height="21" style="max-height: 21px;" />
+                                    </a>
+                                </div>
+                                <div class="mobile-logo-additions">
 
 
 
-</div>
-</div>
-</header>
-</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-row has-search">
+                            <div id="menus">
+                                <nav id="main-menu">
+                                    <a href="#content" title="Skip to content" class="visuallyhidden">Skip to content</a>
+                                    <div id="mega-menu-wrap-menu-header" class="mega-menu-wrap">
+                                        <div class="mega-menu-toggle" tabindex="0"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-right mega-toggle-block-1' id='mega-toggle-block-1'></div></div><ul id="mega-menu-menu-header" class="mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="slide" data-effect-speed="200" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="900">
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-page_item mega-page-item-10332 mega-current_page_item mega-current-menu-ancestor mega-current-menu-parent mega-current_page_parent mega-current_page_ancestor mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-10422' id='mega-menu-item-10422'>
+                                                <a class="mega-menu-link" href="home" aria-haspopup="true" tabindex="0">ANASAYFA</a>
+
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-megamenu mega-menu-item-9975' id='mega-menu-item-9975'>
+                                                <ul class="mega-sub-menu">
+                                                    <li class='mega-menu-item mega-menu-item-type-widget woocommerce widget_product_categories mega-menu-columns-1-of-3 mega-menu-item-woocommerce_product_categories-11' id='mega-menu-item-woocommerce_product_categories-11'>
+                                                        <h4 class="mega-block-title">Categories</h4><ul class="product-categories">
+                                                            <li class="cat-item cat-item-474"><a href="https://hair-beauty.vamtam.com/product-category/accessories/">Accessories</a></li>
+                                                            <li class="cat-item cat-item-419"><a href="https://hair-beauty.vamtam.com/product-category/hairdressing/">Hairdressing</a></li>
+                                                            <li class="cat-item cat-item-363"><a href="https://hair-beauty.vamtam.com/product-category/makeup-accessories/">Makeup Accessories</a></li>
+                                                            <li class="cat-item cat-item-438"><a href="https://hair-beauty.vamtam.com/product-category/perfumes/">Perfumes</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-widget woocommerce widget_products mega-menu-columns-1-of-3 mega-menu-item-woocommerce_products-10' id='mega-menu-item-woocommerce_products-10'>
+                                                        <ul class="product_list_widget">
+                                                            <li>
+                                                                <a href="https://hair-beauty.vamtam.com/product/natural-cosmetics-pack/" title="Natural Cosmetics Pack">
+                                                                    <img width="139" height="150" src="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-139x150.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="product-18" srcset="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-139x150.jpg 139w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-370x400.jpg 370w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-268x290.jpg 268w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-278x300.jpg 278w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-495x535.jpg 495w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-320x346.jpg 320w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-232x251.jpg 232w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18-465x503.jpg 465w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-18.jpg 545w" sizes="(max-width: 139px) 100vw, 139px" /> <span class="product-title">Natural Cosmetics Pack</span>
+                                                                </a>
+                                                                <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>48.00</span>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-widget woocommerce widget_products mega-menu-columns-1-of-3 mega-menu-item-woocommerce_products-11' id='mega-menu-item-woocommerce_products-11'>
+                                                        <ul class="product_list_widget">
+                                                            <li>
+                                                                <a href="https://hair-beauty.vamtam.com/product/volum-express-mascara/" title="Volum&#039; Express Mascara">
+                                                                    <img width="139" height="150" src="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-139x150.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="product-9" srcset="https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-139x150.jpg 139w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-370x400.jpg 370w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-268x290.jpg 268w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-278x300.jpg 278w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-495x535.jpg 495w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-320x346.jpg 320w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-232x251.jpg 232w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9-465x503.jpg 465w, https://hair-beauty.vamtam.com/wp-content/uploads/2015/02/product-9.jpg 545w" sizes="(max-width: 139px) 100vw, 139px" /> <span class="product-title">Volum' Express Mascara</span>
+                                                                </a>
+                                                                <del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>16.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>9.99</span></ins>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+
+                                                <ul class="mega-sub-menu">
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10483' id='mega-menu-item-10483'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/services/hair-cut-hairdryer/">Hair Cut &#038; Hairdryer</a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-7779' id='mega-menu-item-7779'>
+                                                <ul class="mega-sub-menu">
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-item-7777' id='mega-menu-item-7777'>
+                                                        <a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/" aria-haspopup="true">Team</a>
+                                                        <ul class="mega-sub-menu">
+                                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10484' id='mega-menu-item-10484'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/ashley-fletcher/">Ashley Fletcher</a></li>
+                                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10485' id='mega-menu-item-10485'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/avie-beaton/">Avie Beaton</a></li>
+                                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10486' id='mega-menu-item-10486'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/ben-jonson/">Ben Jonson</a></li>
+                                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10487' id='mega-menu-item-10487'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/team/rodney-stratton/">Rodney Stratton</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-9375' id='mega-menu-item-9375'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/clients/">Clients</a></li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-8026' id='mega-menu-item-8026'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/faq/">FAQ</a></li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-9642' id='mega-menu-item-9642'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/pricing/">Packages &#038; gifts</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-9643' id='mega-menu-item-9643'>
+                                                <a class="mega-menu-link" href="galeri" tabindex="0">
+                                                    INSTAGRAM GALERI
+                                                </a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-7885' id='mega-menu-item-7885'>
+                                                <ul class="mega-sub-menu">
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7719' id='mega-menu-item-7719'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/blog/blog-layout-3/">Newspaper Style</a></li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7717' id='mega-menu-item-7717'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/blog/blog-layout-1/">Blog Layout 1</a></li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7718' id='mega-menu-item-7718'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/blog/blog-layout-2/">Blog Layout 2</a></li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7720' id='mega-menu-item-7720'><a class="mega-menu-link" href="https://hair-beauty.vamtam.com/blog/blog-post-formats/">Blog Standard Layout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-10207' id='mega-menu-item-10207'>
+                                                <a class="mega-menu-link" aria-haspopup="true" tabindex="0">
+                                                    HIZMETLERIMIZ
+                                                </a>
+
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-10213' id='mega-menu-item-10213'>
+                                                <a class="mega-menu-link" href="https://hair-beauty.vamtam.com/contact-us/" tabindex="0">
+                                                    ILETISIM
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
 
 
-		
-	@RenderBody()
+
+                    </div>
+                </div>
+            </header>
+        </div>
 
 
-<div class="footer-wrapper">
-<footer class="main-footer wpv-hide-bg-lowres" style="background-color:#212529;background-image:none;">
-<div class="footer-sidebars-wrapper limit-wrapper">
-<div id="footer-sidebars">
-<div class="row"> <aside class="cell-1-3 fit" data-id="6">
-<section id="text-15" class="widget widget_text"><h4 class="widget-title">SABIT NUMARAMIZ</h4> <div class="textwidget"><p><i class="fa fa-phone"></i> <a href="tel:02163687817">0216 368 78 17 </a><br/>Her turlu soru gorus ve oneriniz icin </br> cekinmeden arayiniz <br/>
-</p>
-</div>
-</section> </aside>
-<aside class="cell-1-3 fit" data-id="7">
-<section id="text-21" class="widget widget_text"><h4 class="widget-title">CEP NUMARALARIMIZ</h4> <div class="textwidget"><p>Maltepe, ISTANBUL <br/>
-<i class="fa fa-phone"></i> <a href="tel:05357716349">0535 771 63 49</a><br/>
-									<i class="fa fa-phone"></i>		<a href="tel:05357716349">0535 771 63 49</a>
-											<br/>
-</p>
-</div>
-</section> </aside>
-<aside class="cell-1-3 fit" data-id="8">
-<section id="text-22" class="widget widget_text"><h4 class="widget-title">SOSYAL MEDYA</h4> <div class="textwidget">
-<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-10372" method="post" data-id="10372" data-name="Subscribe for news"><div class="mc4wp-form-fields"><a href="/#email-offers-form" style="display:none" class="wpv-animated-page-scroll" title=""></a>
-<div class="email-offers" id="email-offers-form">
 
-</div>
-<div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"/></div><input type="hidden" name="_mc4wp_timestamp" value="1480326282"/><input type="hidden" name="_mc4wp_form_id" value="10372"/><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"/></div><div class="mc4wp-response"></div></form> 
- <a href="#"><span class='icon shortcode  border use-hover' style='color:#b69e59;border-color:#b69e59;font-size:18px !important;'><i class="fa fa-facebook"></i></span></a>  <a href="#"><span class='icon shortcode theme border use-hover' style='color:#b69e59;border-color:#b69e59;font-size:18px !important;'><i class="fa fa-instagram"></i></span></a></div>
-</section> </aside>
-</div>
-</div>
-</div>
-</footer>
-<div class="wpv-subfooter copyrights wpv-hide-bg-lowres" style="background-color:#ffffff;background-image:none;">
-<div class="">
-<div class="row">
-<div class="wpv-grid grid-1-3">© 2016 <a href="#">Cimbiz Kuafor Guzellik Salonu</a> by <a href="https://erdalugur.com" target="_blank">ugur erdal</a></div>
-<div class="wpv-grid grid-1-3 textcenter"></div>
-<div class="wpv-grid grid-1-3 textright">Site tasarim programlama <a href="https://erdalugur.com/" target="">UGURERDAL</a></div>
-</div>
-</div>
-</div>
-</div>
-</div> 
-</div> 
-</div> 
-<div id="wpv-overlay-search">
-<button id="wpv-overlay-search-close"><span class='icon shortcode theme  use-hover' style=''>&#59648;</span></button>
-<form action="https://hair-beauty.vamtam.com/" class="searchform" method="get" role="search" novalidate="">
-<input type="search" required="required" placeholder="Search..." name="s" value=""/>
-</form>
-</div>
-
-<script>WPV_HIDDEN_WIDGETS = ["text-18","text-13","text-20","text-24"];</script><script type="text/javascript">(function() {function addEventListener(element,event,handler) {
-	if(element.addEventListener) {
-		element.addEventListener(event,handler, false);
-	} else if(element.attachEvent){
-		element.attachEvent('on'+event,handler);
-	}
-}function maybePrefixUrlField() {
-	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
-		this.value = "http://" + this.value;
-	}
-}
-
-var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
-if( urlFields && urlFields.length > 0 ) {
-	for( var j=0; j < urlFields.length; j++ ) {
-		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
-	}
-}/* test if browser supports date fields */
-var testInput = document.createElement('input');
-testInput.setAttribute('type', 'date');
-if( testInput.type !== 'date') {
-
-	/* add placeholder & pattern to all date fields */
-	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
-	for(var i=0; i<dateFields.length; i++) {
-		if(!dateFields[i].placeholder) {
-			dateFields[i].placeholder = 'YYYY-MM-DD';
-		}
-		if(!dateFields[i].pattern) {
-			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
-		}
-	}
-}
-
-})();</script> <script type="text/javascript">
-			function revslider_showDoubleJqueryError(sliderID) {
-				var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
-				errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
-				errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
-				errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
-				errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
-					jQuery(sliderID).show().html(errorMessage);
-			}
-		</script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/ui/core.min.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/ui/datepicker.min.js'></script>
-<script type='text/javascript'>
-jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
-</script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/spin.min.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/spin.jquery.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/tooltipster/js/jquery.tooltipster.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var booked_js_vars = {"ajax_url":"https:\/\/hair-beauty.vamtam.com\/wp-admin\/admin-ajax.php","profilePage":"","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/functions.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/js/modernizr.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var sb_instagram_js_options = {"sb_instagram_at":"605502490.97584da.3f8e935048d744fcb46422b49602c3ef"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/instagram-feed/js/sb-instagram.min.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js' defer='defer'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js' defer='defer'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"https:\/\/hair-beauty.vamtam.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
-<script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
-<script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/ui/effect.min.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/ui/widget.min.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/underscore.min.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/js/plugins/thirdparty/jquery.matchheight.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var WPV_FRONT = {"content_width":"1140","ajaxurl":"https:\/\/hair-beauty.vamtam.com\/wp-admin\/admin-ajax.php","jspath":"https:\/\/hair-beauty.vamtam.com\/wp-content\/themes\/hair-beauty\/vamtam\/assets\/js\/"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/js/all.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/cubeportfolio/js/jquery.cubeportfolio.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var WPVSS = {"uri":"https:\/\/hair-beauty.vamtam.com\/wp-content\/themes\/hair-beauty\/","config":{"groups":[{"name":"Styles","type":"buttons","action":"load_css","options":[{"image":"gold.jpg","width":50,"height":50,"name":"Gold","url":"mock.php?skin=gold"},{"image":"green.jpg","width":50,"height":50,"name":"Green","url":"mock.php?skin=green"},{"image":"orange.jpg","width":50,"height":50,"name":"Orange","url":"mock.php?skin=orange"},{"image":"pink.jpg","width":50,"height":50,"name":"Pink","url":"mock.php?skin=pink"}]},{"name":"Layout","type":"select","action":"load_css","options":[{"name":"Full width","url":"#full-width","options":{"site-layout-type":"full"}},{"name":"Boxed","url":"#boxed","options":{"site-layout-type":"boxed"}}]},{"name":"Header Layout","type":"select","action":"load_css","options":[{"name":"Single Row","url":"header-single-row.css","options":{"header-height":80,"header-layout":"logo-menu","header-logo-type":"image","header-text-main":""}},{"name":"Logo - Left","url":"header-logo-text-menu.css","options":{"header-layout":"logo-text-menu","enable-header-search":true,"header-height":119}},{"name":"Logo - Centered","url":"header-standard.css","options":{"header-layout":"standard","header-logo-type":"image","header-text-main":"","enable-header-search":false}}]},{"name":"Top Bar","type":"select","action":"load_css","options":[{"name":"Social Icons, Text","url":"#top-bar-social-text","options":{"top-bar-layout":"social-text"}},{"name":"Off","url":"#top-bar-off","options":{"top-bar-layout":""}},{"name":"Menu, Social Icons","url":"#top-bar-menu-social","options":{"top-bar-layout":"menu-social"}},{"name":"Social Icons, Menu","url":"#top-bar-social-menu","options":{"top-bar-layout":"social-menu"}},{"name":"Text, Menu","url":"#top-bar-text-menu","options":{"top-bar-layout":"text-menu"}},{"name":"Menu, Text","url":"#top-bar-menu-text","options":{"top-bar-layout":"menu-text"}},{"name":"Text, Social Icons","url":"#top-bar-text-social","options":{"top-bar-layout":"text-social"}}]},{"name":"&nbsp;","type":"buttons","action":"load_css","options":[{"image":"","name":"Reset","url":"clear_css|Styles|Layout|Header Layout|Top Bar"}]}]}};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/hoverIntent.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var megamenu = {"timeout":"300","interval":"100"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/megamenu/js/maxmegamenu.js'></script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/wp-embed.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var mc4wp_forms_config = [];
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js'></script>
-<!--[if lte IE 9]>
-<script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script>
-<![endif]-->
-<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss=".tp-caption.Clean-Title-Slide-100px,.Clean-Title-Slide-100px{color:rgba(30,32,34,1.00);font-size:100px;line-height:120px;font-weight:400;font-style:normal;font-family:Playfair Display;padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;text-shadow:none}.tp-caption.Vamtam-Title-150px,.Vamtam-Title-150px{color:rgba(255,255,255,1.00);font-size:160px;line-height:140px;font-weight:400;font-style:normal;font-family:Playfair Display;padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px}";
-				if(htmlDiv) {
-					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-				}else{
-					var htmlDiv = document.createElement("div");
-					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-				}
-			</script>
-<script type="text/javascript">
-						/******************************************
-				-	PREPARE PLACEHOLDER FOR SLIDER	-
-			******************************************/
-
-			var setREVStartSize=function(){
-				try{var e=new Object,i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
-					e.c = jQuery('#rev_slider_34_1');
-					e.gridwidth = [1140];
-					e.gridheight = [500];
-							
-					e.sliderLayout = "auto";
-					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
-					
-				}catch(d){console.log("Failure at Presize of Slider:"+d)}
-			};
-			
-			setREVStartSize();
-			
-						var tpj=jQuery;
-			
-			var revapi34;
-			tpj(document).ready(function() {
-				if(tpj("#rev_slider_34_1").revolution == undefined){
-					revslider_showDoubleJqueryError("#rev_slider_34_1");
-				}else{
-					revapi34 = tpj("#rev_slider_34_1").show().revolution({
-						sliderType:"standard",
-jsFileLocation:"//hair-beauty.vamtam.com/wp-content/plugins/revslider/public/assets/js/",
-						sliderLayout:"auto",
-						dottedOverlay:"none",
-						delay:9000,
-						navigation: {
-							keyboardNavigation:"on",
-							keyboard_direction: "horizontal",
-							mouseScrollNavigation:"on",
- 							mouseScrollReverse:"default",
-							onHoverStop:"on",
-							touch:{
-								touchenabled:"on",
-								swipe_threshold: 75,
-								swipe_min_touches: 50,
-								swipe_direction: "horizontal",
-								drag_block_vertical: false
-							}
-							,
-							arrows: {
-								style:"hesperiden",
-								enable:true,
-								hide_onmobile:false,
-								hide_onleave:true,
-								hide_delay:200,
-								hide_delay_mobile:1200,
-								tmp:'',
-								left: {
-									h_align:"left",
-									v_align:"center",
-									h_offset:20,
-									v_offset:0
-								},
-								right: {
-									h_align:"right",
-									v_align:"center",
-									h_offset:20,
-									v_offset:0
-								}
-							}
-						},
-						visibilityLevels:[1240,1024,778,480],
-						gridwidth:1140,
-						gridheight:500,
-						lazyType:"none",
-						shadow:0,
-						spinner:"spinner2",
-						stopLoop:"on",
-						stopAfterLoops:1,
-						stopAtSlide:1,
-						shuffle:"off",
-						autoHeight:"off",
-						disableProgressBar:"on",
-						hideThumbsOnMobile:"off",
-						hideSliderAtLimit:0,
-						hideCaptionAtLimit:0,
-						hideAllCaptionAtLilmit:0,
-						debugMode:false,
-						fallbacks: {
-							simplifyAll:"off",
-							nextSlideOnWindowFocus:"off",
-							disableFocusListener:false,
-						}
-					});
-				}
-			});	/*ready*/
-		</script>
- 
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9700abca30","applicationID":"9339867","transactionName":"YFUHbUVUDBZZAkZZXFkfJFpDXA0LFxFTV1Y=","queueTime":0,"applicationTime":1193,"atts":"TBIEGw1OHxg=","errorBeacon":"bam.nr-data.net","agent":""}</script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script>
-<div id="scroll-to-top" class="icon"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+        @RenderBody()
 
 
-		<script type="text/javascript">
+        <div class="footer-wrapper">
+            <footer class="main-footer wpv-hide-bg-lowres" style="background-color:#212529;background-image:none;">
+                <div class="footer-sidebars-wrapper limit-wrapper">
+                    <div id="footer-sidebars">
+                        <div class="row">
+                            <aside class="cell-1-3 fit" data-id="6">
+                                <section id="text-15" class="widget widget_text">
+                                    <h4 class="widget-title">SABIT NUMARAMIZ</h4> <div class="textwidget">
+                                        <p>
+                                            <i class="fa fa-phone"></i> <a href="tel:02163687817">0216 368 78 17 </a><br />Her turlu soru gorus ve oneriniz icin </br> cekinmeden arayiniz <br />
+                                        </p>
+                                    </div>
+                                </section>
+                            </aside>
+                            <aside class="cell-1-3 fit" data-id="7">
+                                <section id="text-21" class="widget widget_text">
+                                    <h4 class="widget-title">CEP NUMARALARIMIZ</h4> <div class="textwidget">
+                                        <p>
+                                            Maltepe, ISTANBUL <br />
+                                            <i class="fa fa-phone"></i> <a href="tel:05357716349">0535 771 63 49</a><br />
+                                            <i class="fa fa-phone"></i>		<a href="tel:05357716349">0535 771 63 49</a>
+                                            <br />
+                                        </p>
+                                    </div>
+                                </section>
+                            </aside>
+                            <aside class="cell-1-3 fit" data-id="8">
+                                <section id="text-22" class="widget widget_text">
+                                    <h4 class="widget-title">SOSYAL MEDYA</h4> <div class="textwidget">
+                                        <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-10372" method="post" data-id="10372" data-name="Subscribe for news">
+                                            <div class="mc4wp-form-fields">
+                                                <a href="/#email-offers-form" style="display:none" class="wpv-animated-page-scroll" title=""></a>
+                                                <div class="email-offers" id="email-offers-form">
 
+                                                </div>
+                                                <div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1480326282" /><input type="hidden" name="_mc4wp_form_id" value="10372" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+                                            </div><div class="mc4wp-response"></div>
+                                        </form>
+                                        <a href="#"><span class='icon shortcode  border use-hover' style='color:#b69e59;border-color:#b69e59;font-size:18px !important;'><i class="fa fa-facebook"></i></span></a>  <a href="#"><span class='icon shortcode theme border use-hover' style='color:#b69e59;border-color:#b69e59;font-size:18px !important;'><i class="fa fa-instagram"></i></span></a>
+                                    </div>
+                                </section>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="wpv-subfooter copyrights wpv-hide-bg-lowres" style="background-color:#ffffff;background-image:none;">
+                <div class="">
+                    <div class="row">
+                        <div class="wpv-grid grid-1-3">© 2016 <a href="#">Cimbiz Kuafor Guzellik Salonu</a> by <a href="https://erdalugur.com" target="_blank">ugur erdal</a></div>
+                        <div class="wpv-grid grid-1-3 textcenter"></div>
+                        <div class="wpv-grid grid-1-3 textright">Site tasarim programlama <a href="https://erdalugur.com/" target="">UGURERDAL</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="wpv-overlay-search">
+        <button id="wpv-overlay-search-close"><span class='icon shortcode theme  use-hover' style=''>&#59648;</span></button>
+        <form action="https://hair-beauty.vamtam.com/" class="searchform" method="get" role="search" novalidate="">
+            <input type="search" required="required" placeholder="Search..." name="s" value="" />
+        </form>
+    </div>
 
-//HELP FROM HERE... THANKS!
-//https://forrst.com/posts/Using_the_Instagram_API-ti5
+    <script>WPV_HIDDEN_WIDGETS = ["text-18", "text-13", "text-20", "text-24"];</script>
+    <script type="text/javascript">
+        (function () {
+            function addEventListener(element, event, handler) {
+                if (element.addEventListener) {
+                    element.addEventListener(event, handler, false);
+                } else if (element.attachEvent) {
+                    element.attachEvent('on' + event, handler);
+                }
+            } function maybePrefixUrlField() {
+                if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+                    this.value = "http://" + this.value;
+                }
+            }
 
-// small = + data.data[i].images.thumbnail.url +
-// resolution: low_resolution, thumbnail, standard_resolution
+            var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+            if (urlFields && urlFields.length > 0) {
+                for (var j = 0; j < urlFields.length; j++) {
+                    addEventListener(urlFields[j], 'blur', maybePrefixUrlField);
+                }
+            }/* test if browser supports date fields */
+            var testInput = document.createElement('input');
+            testInput.setAttribute('type', 'date');
+            if (testInput.type !== 'date') {
 
-$(function() {
-    $.ajax({
-    	type: "GET",
-        dataType: "jsonp",
-        cache: false,
-        url: "https://api.instagram.com/v1/users/336339522/media/recent/?access_token=336339522.db9d491.815a3893d7f74d8497399ff48ee27631",
-        success: function(data) {
-            for (var i = 0; i < 20; i++) {
-        $(".instagram ul").append("<li><a target='_blank' href='" + data.data[i].link +"'><img class='instagram-image' src='" + data.data[i].images.low_resolution.url +"' /></a></li>");   
-      		}     
-                            
+                /* add placeholder & pattern to all date fields */
+                var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+                for (var i = 0; i < dateFields.length; i++) {
+                    if (!dateFields[i].placeholder) {
+                        dateFields[i].placeholder = 'YYYY-MM-DD';
+                    }
+                    if (!dateFields[i].pattern) {
+                        dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+                    }
+                }
+            }
+
+        })();</script>
+    <script type="text/javascript">
+        function revslider_showDoubleJqueryError(sliderID) {
+            var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+            errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+            errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+            errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+            errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+            jQuery(sliderID).show().html(errorMessage);
         }
-    });
-});
+    </script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/ui/core.min.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/ui/datepicker.min.js'></script>
+    <script type='text/javascript'>
+        jQuery(document).ready(function (jQuery) { jQuery.datepicker.setDefaults({ "closeText": "Close", "currentText": "Today", "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Previous", "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "dateFormat": "MM d, yy", "firstDay": 1, "isRTL": false }); });
+    </script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/spin.min.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/spin.jquery.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/tooltipster/js/jquery.tooltipster.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var booked_js_vars = { "ajax_url": "https:\/\/hair-beauty.vamtam.com\/wp-admin\/admin-ajax.php", "profilePage": "", "publicAppointments": "", "i18n_confirm_appt_delete": "Are you sure you want to cancel this appointment?", "i18n_please_wait": "Please wait ...", "i18n_wrong_username_pass": "Wrong username\/password combination.", "i18n_fill_out_required_fields": "Please fill out all required fields.", "i18n_guest_appt_required_fields": "Please enter your name to book an appointment.", "i18n_appt_required_fields": "Please enter your name, your email address and choose a password to book an appointment.", "i18n_appt_required_fields_guest": "Please fill in all \"Information\" fields.", "i18n_password_reset": "Please check your email for instructions on resetting your password.", "i18n_password_reset_error": "That username or email is not recognized." };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/booked/js/functions.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/js/modernizr.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var sb_instagram_js_options = { "sb_instagram_at": "605502490.97584da.3f8e935048d744fcb46422b49602c3ef" };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/instagram-feed/js/sb-instagram.min.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js' defer='defer'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js' defer='defer'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View Cart", "cart_url": "https:\/\/hair-beauty.vamtam.com\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
+    <script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var woocommerce_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%" };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
+    <script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/ui/effect.min.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/jquery/ui/widget.min.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/underscore.min.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/js/plugins/thirdparty/jquery.matchheight.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var WPV_FRONT = { "content_width": "1140", "ajaxurl": "https:\/\/hair-beauty.vamtam.com\/wp-admin\/admin-ajax.php", "jspath": "https:\/\/hair-beauty.vamtam.com\/wp-content\/themes\/hair-beauty\/vamtam\/assets\/js\/" };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/js/all.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "fragment_name": "wc_fragments" };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='//hair-beauty.vamtam.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/themes/hair-beauty/vamtam/assets/cubeportfolio/js/jquery.cubeportfolio.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var WPVSS = { "uri": "https:\/\/hair-beauty.vamtam.com\/wp-content\/themes\/hair-beauty\/", "config": { "groups": [{ "name": "Styles", "type": "buttons", "action": "load_css", "options": [{ "image": "gold.jpg", "width": 50, "height": 50, "name": "Gold", "url": "mock.php?skin=gold" }, { "image": "green.jpg", "width": 50, "height": 50, "name": "Green", "url": "mock.php?skin=green" }, { "image": "orange.jpg", "width": 50, "height": 50, "name": "Orange", "url": "mock.php?skin=orange" }, { "image": "pink.jpg", "width": 50, "height": 50, "name": "Pink", "url": "mock.php?skin=pink" }] }, { "name": "Layout", "type": "select", "action": "load_css", "options": [{ "name": "Full width", "url": "#full-width", "options": { "site-layout-type": "full" } }, { "name": "Boxed", "url": "#boxed", "options": { "site-layout-type": "boxed" } }] }, { "name": "Header Layout", "type": "select", "action": "load_css", "options": [{ "name": "Single Row", "url": "header-single-row.css", "options": { "header-height": 80, "header-layout": "logo-menu", "header-logo-type": "image", "header-text-main": "" } }, { "name": "Logo - Left", "url": "header-logo-text-menu.css", "options": { "header-layout": "logo-text-menu", "enable-header-search": true, "header-height": 119 } }, { "name": "Logo - Centered", "url": "header-standard.css", "options": { "header-layout": "standard", "header-logo-type": "image", "header-text-main": "", "enable-header-search": false } }] }, { "name": "Top Bar", "type": "select", "action": "load_css", "options": [{ "name": "Social Icons, Text", "url": "#top-bar-social-text", "options": { "top-bar-layout": "social-text" } }, { "name": "Off", "url": "#top-bar-off", "options": { "top-bar-layout": "" } }, { "name": "Menu, Social Icons", "url": "#top-bar-menu-social", "options": { "top-bar-layout": "menu-social" } }, { "name": "Social Icons, Menu", "url": "#top-bar-social-menu", "options": { "top-bar-layout": "social-menu" } }, { "name": "Text, Menu", "url": "#top-bar-text-menu", "options": { "top-bar-layout": "text-menu" } }, { "name": "Menu, Text", "url": "#top-bar-menu-text", "options": { "top-bar-layout": "menu-text" } }, { "name": "Text, Social Icons", "url": "#top-bar-text-social", "options": { "top-bar-layout": "text-social" } }] }, { "name": "&nbsp;", "type": "buttons", "action": "load_css", "options": [{ "image": "", "name": "Reset", "url": "clear_css|Styles|Layout|Header Layout|Top Bar" }] }] } };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/hoverIntent.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var megamenu = { "timeout": "300", "interval": "100" };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/megamenu/js/maxmegamenu.js'></script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-includes/js/wp-embed.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var mc4wp_forms_config = [];
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js'></script>
+    <!--[if lte IE 9]>
+    <script type='text/javascript' src='https://hair-beauty.vamtam.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script>
+    <![endif]-->
+    <script>
+var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss = ".tp-caption.Clean-Title-Slide-100px,.Clean-Title-Slide-100px{color:rgba(30,32,34,1.00);font-size:100px;line-height:120px;font-weight:400;font-style:normal;font-family:Playfair Display;padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;text-shadow:none}.tp-caption.Vamtam-Title-150px,.Vamtam-Title-150px{color:rgba(255,255,255,1.00);font-size:160px;line-height:140px;font-weight:400;font-style:normal;font-family:Playfair Display;padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px}";
+        if (htmlDiv) {
+            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+        } else {
+            var htmlDiv = document.createElement("div");
+            htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+            document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+        }
+    </script>
+    <script type="text/javascript">
+        /******************************************
+-	PREPARE PLACEHOLDER FOR SLIDER	-
+******************************************/
+
+        var setREVStartSize = function () {
+            try {
+                var e = new Object, i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+                e.c = jQuery('#rev_slider_34_1');
+                e.gridwidth = [1140];
+                e.gridheight = [500];
+
+                e.sliderLayout = "auto";
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) { f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e) }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) { var u = (e.c.width(), jQuery(window).height()); if (void 0 != e.fullScreenOffsetContainer) { var c = e.fullScreenOffsetContainer.split(","); if (c) jQuery.each(c, function (e, i) { u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0)) } f = u } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight); e.c.closest(".rev_slider_wrapper").css({ height: f })
+
+            } catch (d) { console.log("Failure at Presize of Slider:" + d) }
+        };
+
+        setREVStartSize();
+
+        var tpj = jQuery;
+
+        var revapi34;
+        tpj(document).ready(function () {
+            if (tpj("#rev_slider_34_1").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider_34_1");
+            } else {
+                revapi34 = tpj("#rev_slider_34_1").show().revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "//hair-beauty.vamtam.com/wp-content/plugins/revslider/public/assets/js/",
+                    sliderLayout: "auto",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {
+                        keyboardNavigation: "on",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "on",
+                        mouseScrollReverse: "default",
+                        onHoverStop: "on",
+                        touch: {
+                            touchenabled: "on",
+                            swipe_threshold: 75,
+                            swipe_min_touches: 50,
+                            swipe_direction: "horizontal",
+                            drag_block_vertical: false
+                        }
+                        ,
+                        arrows: {
+                            style: "hesperiden",
+                            enable: true,
+                            hide_onmobile: false,
+                            hide_onleave: true,
+                            hide_delay: 200,
+                            hide_delay_mobile: 1200,
+                            tmp: '',
+                            left: {
+                                h_align: "left",
+                                v_align: "center",
+                                h_offset: 20,
+                                v_offset: 0
+                            },
+                            right: {
+                                h_align: "right",
+                                v_align: "center",
+                                h_offset: 20,
+                                v_offset: 0
+                            }
+                        }
+                    },
+                    visibilityLevels: [1240, 1024, 778, 480],
+                    gridwidth: 1140,
+                    gridheight: 500,
+                    lazyType: "none",
+                    shadow: 0,
+                    spinner: "spinner2",
+                    stopLoop: "on",
+                    stopAfterLoops: 1,
+                    stopAtSlide: 1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+        });	/*ready*/
+    </script>
+
+    <script type="text/javascript">window.NREUM || (NREUM = {}); NREUM.info = { "beacon": "bam.nr-data.net", "licenseKey": "9700abca30", "applicationID": "9339867", "transactionName": "YFUHbUVUDBZZAkZZXFkfJFpDXA0LFxFTV1Y=", "queueTime": 0, "applicationTime": 1193, "atts": "TBIEGw1OHxg=", "errorBeacon": "bam.nr-data.net", "agent": "" }</script>
+    <script type="text/javascript">        /* <![CDATA[ */(function (d, s, a, i, j, r, l, m, t) { try { l = d.getElementsByTagName('a'); t = d.createElement('textarea'); for (i = 0; l.length - i; i++) { try { a = l[i].href; s = a.indexOf('/cdn-cgi/l/email-protection'); m = a.length; if (a && s > -1 && m > 28) { j = 28 + s; s = ''; if (j < m) { r = '0x' + a.substr(j, 2) | 0; for (j += 2; j < m && a.charAt(j) != 'X'; j += 2) s += '%' + ('0' + ('0x' + a.substr(j, 2) ^ r).toString(16)).slice(-2); j++; s = decodeURIComponent(s) + a.substr(j, m - j) } t.innerHTML = s.replace(/</g, '&lt;').replace(/>/g, '&gt;'); l[i].href = 'mailto:' + t.value } } catch (e) { } } } catch (e) { } })(document);/* ]]> */</script>
+    <div id="scroll-to-top" class="icon"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+
+
+    <script type="text/javascript">
+
+
+        //HELP FROM HERE... THANKS!
+        //https://forrst.com/posts/Using_the_Instagram_API-ti5
+
+        // small = + data.data[i].images.thumbnail.url +
+        // resolution: low_resolution, thumbnail, standard_resolution
+
+        $(function () {
+            $.ajax({
+                type: "GET",
+                dataType: "jsonp",
+                cache: false,
+                url: "https://api.instagram.com/v1/users/336339522/media/recent/?access_token=336339522.db9d491.815a3893d7f74d8497399ff48ee27631",
+                success: function (data) {
+                    for (var i = 0; i < 20; i++) {
+                        $(".instagram ul").append("<li><a target='_blank' href='" + data.data[i].link + "'><img class='instagram-image' src='" + data.data[i].images.low_resolution.url + "' /></a></li>");
+                    }
+
+                }
+            });
+        });
 
 
 
 
-		</script>
-	</body>
-	
+    </script>
+</body>
+
 </html>
