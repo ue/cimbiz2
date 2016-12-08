@@ -78,7 +78,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\HizmetlerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IletisimController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -100,6 +103,7 @@
     <Content Include="Content\dist\js\lightbox.js" />
     <Content Include="Content\dist\js\lightbox.min.js" />
     <Content Include="Content\dist\js\lightbox.min.map" />
+    <Content Include="Content\img\about-woman.jpg" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -205,6 +209,9 @@
     <None Include="Content\bootstrap-theme.css.map" />
     <None Include="fonts\fontawesome-webfont.woff2" />
     <None Include="Scripts\jquery-1.12.4.min.map" />
+    <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\Hizmetler\Index.cshtml" />
+    <Content Include="Views\Iletisim\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
