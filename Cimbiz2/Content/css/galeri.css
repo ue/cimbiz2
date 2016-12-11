@@ -1,0 +1,24 @@
+﻿    .instimg {
+        margin: 13px;
+        border: 2px;
+        width: 200px;
+        height: 200px;
+        border-radius: 5px !important;
+        border: 1px solid #fff !important;
+    }
+
+        .instimg:hover {
+            border: 1px solid #2a5b97 !important;
+        }
+
+
+    .instagramapi {
+        text-align: center;
+    }
+    .ig-follow{
+        text-align:center;
+    }
+    .insbtn{
+        text-align:center;
+        display:block;
+    }

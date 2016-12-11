@@ -89,6 +89,7 @@
     <Compile Include="Controllers\GaleriController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\galeri.css" />
     <Content Include="Content\css\hover-min.css" />
     <Content Include="Content\css\hover.css" />
     <Content Include="Content\dist\css\lightbox.css" />
