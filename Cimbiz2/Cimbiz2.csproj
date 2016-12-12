@@ -92,10 +92,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\all.css" />
+    <Content Include="Content\css\cubeportfilio.css" />
     <Content Include="Content\css\custom.css" />
     <Content Include="Content\css\galeri.css" />
     <Content Include="Content\css\hover-min.css" />
     <Content Include="Content\css\hover.css" />
+    <Content Include="Content\css\megamenu.css" />
     <Content Include="Content\css\settings.css" />
     <Content Include="Content\dist\css\lightbox.css" />
     <Content Include="Content\dist\css\lightbox.min.css" />
@@ -122,6 +124,10 @@
     <Content Include="Content\img\homepage\tirnak\gallery_7_400x600.jpg" />
     <Content Include="Content\img\homepage\tirnak\gallery_8_460x460.jpg" />
     <Content Include="Content\img\homepage\tirnak\gallery_9_460x460.jpg" />
+    <Content Include="Content\img\sliderr.jpg" />
+    <Content Include="Content\js\all.js" />
+    <Content Include="Content\js\cubepro.min.js" />
+    <Content Include="Content\js\jqu.js" />
     <Content Include="Content\js\revolution.js" />
     <Content Include="Content\js\tools.js" />
     <Content Include="Views\Web.config" />
