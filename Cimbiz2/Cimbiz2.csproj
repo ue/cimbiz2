@@ -74,11 +74,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\fonts\" />
-    <Folder Include="Content\js\" />
+    <Folder Include="Content\img\homepage\kas\" />
+    <Folder Include="Content\img\homepage\makyaj\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\denemeController.cs" />
     <Compile Include="Controllers\HizmetlerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IletisimController.cs" />
@@ -89,9 +91,12 @@
     <Compile Include="Controllers\GaleriController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\all.css" />
+    <Content Include="Content\css\custom.css" />
     <Content Include="Content\css\galeri.css" />
     <Content Include="Content\css\hover-min.css" />
     <Content Include="Content\css\hover.css" />
+    <Content Include="Content\css\settings.css" />
     <Content Include="Content\dist\css\lightbox.css" />
     <Content Include="Content\dist\css\lightbox.min.css" />
     <Content Include="Content\dist\images\close.png" />
@@ -105,6 +110,20 @@
     <Content Include="Content\dist\js\lightbox.min.js" />
     <Content Include="Content\dist\js\lightbox.min.map" />
     <Content Include="Content\img\about-woman.jpg" />
+    <Content Include="Content\img\homepage\sac\blog-4.1-971x784.jpg" />
+    <Content Include="Content\img\homepage\sac\portfolio-1.1-1000x784.jpg" />
+    <Content Include="Content\img\homepage\sac\portfolio-3-1020x615.jpg" />
+    <Content Include="Content\img\homepage\sac\portfolio-4.jpg" />
+    <Content Include="Content\img\homepage\sac\portfolio-5.2.jpg" />
+    <Content Include="Content\img\homepage\tirnak\gallery_10_460x460.jpg" />
+    <Content Include="Content\img\homepage\tirnak\gallery_1_400x600.jpg" />
+    <Content Include="Content\img\homepage\tirnak\gallery_3_400x450.jpg" />
+    <Content Include="Content\img\homepage\tirnak\gallery_5_460x460.jpg" />
+    <Content Include="Content\img\homepage\tirnak\gallery_7_400x600.jpg" />
+    <Content Include="Content\img\homepage\tirnak\gallery_8_460x460.jpg" />
+    <Content Include="Content\img\homepage\tirnak\gallery_9_460x460.jpg" />
+    <Content Include="Content\js\revolution.js" />
+    <Content Include="Content\js\tools.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -213,6 +232,7 @@
     <Content Include="Views\Blog\Index.cshtml" />
     <Content Include="Views\Hizmetler\Index.cshtml" />
     <Content Include="Views\Iletisim\Index.cshtml" />
+    <Content Include="Views\deneme\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
