@@ -7,3 +7,9 @@
  
 }
 
+
+@media screen and (min-width: 960px) {
+    body {
+        background-color: lightgreen;
+    }
+}

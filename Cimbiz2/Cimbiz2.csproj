@@ -91,6 +91,10 @@
     <Compile Include="Controllers\GaleriController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\all.css" />
     <Content Include="Content\css\cubeportfilio.css" />
     <Content Include="Content\css\custom.css" />
@@ -112,6 +116,7 @@
     <Content Include="Content\dist\js\lightbox.min.js" />
     <Content Include="Content\dist\js\lightbox.min.map" />
     <Content Include="Content\img\about-woman.jpg" />
+    <Content Include="Content\img\bg_tabs.jpg" />
     <Content Include="Content\img\homepage\sac\blog-4.1-971x784.jpg" />
     <Content Include="Content\img\homepage\sac\portfolio-1.1-1000x784.jpg" />
     <Content Include="Content\img\homepage\sac\portfolio-3-1020x615.jpg" />
@@ -130,6 +135,9 @@
     <Content Include="Content\js\jqu.js" />
     <Content Include="Content\js\revolution.js" />
     <Content Include="Content\js\tools.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -159,16 +167,6 @@
     <Content Include="Content\img\kbrprf.jpg" />
     <Content Include="Content\img\kbrprf1.jpg" />
     <Content Include="Views\Galeri\Index.cshtml" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap-theme.css" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
@@ -227,12 +225,15 @@
     <Content Include="Scripts\ekko-lightbox.min.js" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\typings\photoswipe\photoswipe.d.ts" />
-    <None Include="fonts\glyphicons-halflings-regular.woff2" />
-    <None Include="Content\bootstrap.min.css.map" />
-    <None Include="Content\bootstrap.css.map" />
-    <None Include="Content\bootstrap-theme.min.css.map" />
-    <None Include="Content\bootstrap-theme.css.map" />
     <None Include="fonts\fontawesome-webfont.woff2" />
     <None Include="Scripts\jquery-1.12.4.min.map" />
     <Content Include="Views\Blog\Index.cshtml" />
