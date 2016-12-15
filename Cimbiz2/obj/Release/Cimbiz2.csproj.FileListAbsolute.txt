@@ -1,0 +1,17 @@
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\Cimbiz2.dll.config
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\Cimbiz2.dll
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.Helpers.dll
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.Mvc.dll
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.Razor.dll
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.WebPages.dll
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.WebPages.Razor.dll
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.Razor.xml
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.Helpers.xml
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.WebPages.xml
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.WebPages.Razor.xml
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\bin\System.Web.Mvc.xml
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\obj\Release\Cimbiz2.csprojResolveAssemblyReference.cache
+C:\Users\ugrerdl\Desktop\ivir\cimbiz2-master\Cimbiz2\obj\Release\Cimbiz2.dll
