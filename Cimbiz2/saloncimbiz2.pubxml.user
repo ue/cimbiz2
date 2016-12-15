@@ -11,7 +11,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Cimbiz2.dll">
-      <publishTime>12/14/2016 22:13:35</publishTime>
+      <publishTime>12/15/2016 15:21:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>12/14/2016 15:52:26</publishTime>
@@ -124,6 +124,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/about-woman.jpg">
       <publishTime>12/14/2016 15:52:19</publishTime>
     </File>
+    <File Include="Content/img/agda.png">
+      <publishTime>12/15/2016 13:56:35</publishTime>
+    </File>
     <File Include="Content/img/bgbg.jpg">
       <publishTime>12/14/2016 15:57:45</publishTime>
     </File>
@@ -171,6 +174,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/homepage/tirnak/gallery_9_460x460.jpg">
       <publishTime>12/14/2016 15:52:20</publishTime>
+    </File>
+    <File Include="Content/img/icon.png">
+      <publishTime>12/15/2016 12:13:37</publishTime>
     </File>
     <File Include="Content/img/kbrprf.jpg">
       <publishTime>12/14/2016 15:52:19</publishTime>
@@ -234,6 +240,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/js/effect.min.js">
       <publishTime>12/14/2016 16:21:25</publishTime>
+    </File>
+    <File Include="Content/js/instagramapi.js">
+      <publishTime>12/15/2016 15:05:40</publishTime>
     </File>
     <File Include="Content/js/jqu.js">
       <publishTime>12/14/2016 15:52:21</publishTime>
@@ -452,22 +461,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/14/2016 15:52:23</publishTime>
     </File>
     <File Include="Views/Galeri/Index.cshtml">
-      <publishTime>12/14/2016 16:14:02</publishTime>
+      <publishTime>12/15/2016 15:14:16</publishTime>
     </File>
     <File Include="Views/Hizmetler/Index.cshtml">
-      <publishTime>12/14/2016 16:15:18</publishTime>
+      <publishTime>12/15/2016 15:00:13</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>12/14/2016 16:35:37</publishTime>
+      <publishTime>12/15/2016 14:26:09</publishTime>
     </File>
     <File Include="Views/Iletisim/Index.cshtml">
-      <publishTime>12/14/2016 16:56:06</publishTime>
+      <publishTime>12/15/2016 15:02:35</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>12/14/2016 15:52:23</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>12/14/2016 16:54:13</publishTime>
+      <publishTime>12/15/2016 15:21:15</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>12/14/2016 15:52:23</publishTime>

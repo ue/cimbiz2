@@ -10,7 +10,10 @@
     <meta name="author" content="ugurerdal" />
     <meta name="keywords" content="kuafor,guzellik,maltepe,salon,makyaj,cimbiz" />
     <meta name="robots" content="index, follow" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#b69e59" />
+    <link rel="apple-touch-icon-precomposed" href="~/Content/img/icon.png">
+    <link rel="icon" href="~/Content/img/icon.png" sizes="32x32">
     <link rel='dns-prefetch' href='Content/font-awesome.min.css' />
     <link rel='dns-prefetch' href='Content/bootstrap.min.css' />
     <link href="~/Content/css/custom.css" rel="stylesheet" />
@@ -21,8 +24,7 @@
     <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
     <script src="~/Content/js/jqu.js"></script>
     <script src="~/Content/js/custom.js"></script>
-  
-
+    @RenderSection("galeriscript", false)
 </head>
 <body class="home page page-id-10332 page-child parent-pageid-11 page-template-default mega-menu-one-page-menu mega-menu-menu-header full header-layout-logo-menu pagination-load-more page-vertical-padding-none sticky-header-type-normal wpv-not-scrolled no-page-header has-header-slider no-header-sidebars responsive-layout sticky-header sticky-footer layout-full">
     <span id="top"></span>
@@ -44,7 +46,7 @@
                                     </div>
                                     <div class="grid-1-2 lowres-width-override lowres-grid-1-2" id="top-nav-text">
 
-                                        SALI KAPALI -     DIGER GUNLER   /     <a href="/services/hair-cut-hairdryer/">8.00 - 21.00</a>
+                                        SALI KAPALI -     DIGER GUNLER   /     <a href="#">8.00 - 21.00</a>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +73,7 @@
                             <div id="menus">
                                 <nav id="main-menu">
 
-                                    <div id="mega-menu-wrap-menu-header" class="mega-menu-wrap">
+                                    <div id="mega-menu-wrap-menu-header" class="mega-menu-wrap"">
                                         <div class="mega-menu-toggle">
                                             <div class="mega-menu-toggle-block mega-toggle-block-right ">
 
@@ -116,7 +118,7 @@
         @RenderBody()
 
         <div class="footer-wrapper">
-            <footer class="main-footer wpv-hide-bg-lowres" style="background-color:#212529;background-image:none;z-index:-1;">
+            <footer class="main-footer wpv-hide-bg-lowres" style="background-color:#212529;background-image:none;z-index:1;">
                 <div class="footer-sidebars-wrapper limit-wrapper">
                     <div id="footer-sidebars">
                         <div class="row">

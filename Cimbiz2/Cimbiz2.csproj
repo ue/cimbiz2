@@ -111,6 +111,7 @@
     <Content Include="Content\dist\js\lightbox.min.js" />
     <Content Include="Content\dist\js\lightbox.min.map" />
     <Content Include="Content\img\about-woman.jpg" />
+    <Content Include="Content\img\agda.png" />
     <Content Include="Content\img\bgbg.jpg" />
     <Content Include="Content\img\homepage\sac\blog-4.1-971x784.jpg" />
     <Content Include="Content\img\homepage\sac\portfolio-1.1-1000x784.jpg" />
@@ -124,11 +125,13 @@
     <Content Include="Content\img\homepage\tirnak\gallery_7_400x600.jpg" />
     <Content Include="Content\img\homepage\tirnak\gallery_8_460x460.jpg" />
     <Content Include="Content\img\homepage\tirnak\gallery_9_460x460.jpg" />
+    <Content Include="Content\img\icon.png" />
     <Content Include="Content\img\sliderr.jpg" />
     <Content Include="Content\js\all.min.js" />
     <Content Include="Content\js\cubepro.min.js" />
     <Content Include="Content\js\custom.js" />
     <Content Include="Content\js\effect.min.js" />
+    <Content Include="Content\js\instagramapi.js" />
     <Content Include="Content\js\jqu.js" />
     <Content Include="Content\js\maxmenu.js" />
     <Content Include="Content\js\revolution.js" />
